@@ -11,11 +11,12 @@
     "tfb2:food/omnivore",
     "tfb2:size/health_hit_80",
     "tfb2:damage/damage_minus_60",
-    "tfb2:speed/speedup_14"
+    "tfb2:speed/speedup_14",
+    "tfb2:speed/swimup_5"
   ],
   "icon": "minecraft:lily_of_the_valley",
   "order": 2,
   "impact": 3,
   "name":"[TFB] Mouse",
-  "description": "Mice are the smallest Rodentia, fragile but with many secrets."
+  "description": "Mice are the smallest Rodentia, fragile but with many secrets.."
 }

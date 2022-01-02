@@ -8,6 +8,7 @@
     "tfb2:size/health_hit_30",
     "tfb2:damage/sly_traveler",
     "tfb2:speed/speedup_2",
+    "tfb2:speed/swimup_1",
     "tfb2:damage/damage_minus_20"
   ],
   "icon": "minecraft:chicken",

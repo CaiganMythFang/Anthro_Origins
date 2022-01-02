@@ -12,6 +12,7 @@
     "tfb2:size/health_hit_40",
     "tfb2:damage/damage_minus_30",
     "tfb2:speed/speedup_8",
+    "tfb2:speed/swimup_2",
     "tfb2:food/herbivore",
     "tfb2:food/herbivore2",
     "tfb2:food/herbivore3"
