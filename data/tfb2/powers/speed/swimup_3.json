@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_swim_speed",
+	"modifier": {
+		"operation": "addition",
+		"value": 0.03
+	},
+	"description": "Smaller animals swim slower by scale, this is used to get them closer to 'human' speed but still slower.(50 to 75 percent size)",
+    "hidden": true
+}
