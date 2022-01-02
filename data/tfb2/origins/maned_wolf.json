@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "tfb2:damage/tamp",
+    "tfb2:size/maned_wolf_size",
+    "tfb2:food/maned_wolf_food",
+    "tfb2:size/limb_length_1_5",
+    "tfb2:speed/speedup_1",
+    "tfb2:food/omnivore",
+    "tfb2:damage/medium_fall_damage",
+    "tfb2:damage/human_anxiety"
+  ],
+  "icon": "minecraft:apple",
+  "order": 2,
+  "impact": 1,
+  "name":"[TFB] Maned Wolf",
+  "description": "Maned Wolves are the tallest and lankiest Canidae. Sometimes mistaken as a fox, the maned wolf is a shy and solitary creature."
+}

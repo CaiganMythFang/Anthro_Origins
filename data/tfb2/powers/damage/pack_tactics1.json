@@ -1,0 +1,27 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "name": "Extra Damage While Near Players or Wolves",
+    "value": 0.2,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+       "type": "origins:command",
+       "command": "execute if entity @e[type=minecraft:wolf, distance=2..10]",
+       "comparison": "==",
+       "compare_to": 1
+      },
+      {
+          "type": "origins:command",
+          "command": "execute if entity @e[type=minecraft:player, distance=2..10]",
+          "comparison": "==",
+          "compare_to": 1
+      }
+    ]
+  },
+    "name": "§2§nPack Tactics",
+    "description": "You do more damage and heal faster when you are with members of your pack (players and pets)."
+}

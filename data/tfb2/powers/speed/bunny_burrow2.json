@@ -1,0 +1,20 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -5,
+	"max_stacks": 10,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:haste",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true,
+		"amplifier": 0
+	  },
+	"condition": {
+          "type": "origins:command",
+          "command": "execute if entity @e[type=minecraft:player, distance=1..10]",
+          "comparison": "==",
+          "compare_to": 1
+      },
+      "hidden": true
+  }

@@ -1,0 +1,23 @@
+{
+  "powers": [
+    "tfb2:buffs/rabbit_vanish",
+    "tfb2:movement/rabbit_jump",
+    "tfb2:size/rabbit_size",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3medium",
+    "tfb2:speed/bunny_burrow",
+    "tfb2:speed/bunny_burrow2",
+    "tfb2:speed/speedup_8",
+    "tfb2:food/herbivore",
+    "tfb2:food/herbivore2",
+    "tfb2:food/herbivore3",
+    "tfb2:size/health_hit_50",
+    "tfb2:damage/damage_minus_40"
+  ],
+  "icon": "minecraft:rabbit_hide",
+  "order": 2,
+  "impact": 3,
+  "name":"[TFB] Rabbit",
+  "description": "Rabbits are smaller Leporidae and are quite social."
+}

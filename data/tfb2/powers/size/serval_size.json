@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "scale set 0.45 @s",
+    "permission_level": 4
+  },
+  "entity_action_respawned": {
+    "type": "origins:execute_command",
+    "command": "scale set 0.45 @s",
+    "permission_level": 4
+  },
+  "entity_action_added": {
+    "type": "origins:execute_command",
+    "command": "scale set 0.45 @s",
+    "permission_level": 4
+  },
+  "entity_action_removed": {
+    "type": "origins:execute_command",
+    "command": "scale reset @s",
+    "permission_level": 4
+  },
+  "execute_chosen_when_orb": true,
+
+  "name": "§9§nServal Sized",
+  "description": "You are a much smaller Felidae. You have a lot less health and do a lot less damage."
+}

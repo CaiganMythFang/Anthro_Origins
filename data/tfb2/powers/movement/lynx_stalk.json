@@ -1,0 +1,40 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:delay",
+                "ticks": 5,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s minecraft:jump_boost 3 2",
+                  "permission_level": 4
+                  }                
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 5,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s minecraft:invisibility 6 3",
+                  "permission_level": 4
+                  }                
+            },
+			{
+				"type": "origins:exhaust",
+				"amount": 1
+			}
+        ]
+    },
+    "cooldown": 1000,
+	"hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 4
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "name": "§2§nLynx Perch",
+	"description": "Pressing your Active Key boosts your jump for a few seconds and turns you invisible, letting you ascend to a scoouting perch quickly and quietly."
+}

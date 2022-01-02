@@ -1,0 +1,12 @@
+{
+
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": "-6"
+  },
+
+  "name": "§4§nVery Small Stature",
+  "description": "Due to your fairly small size, you have much less health and do much less base damage."
+}

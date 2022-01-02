@@ -1,0 +1,6 @@
+{
+    "type": "origins:elytra_flight",
+    "render_elytra": false, 
+    "name":"§2§nGlide Wing",
+    "description": "You use your wings like an Elytra. Hold Space while falling to start gliding!"
+}

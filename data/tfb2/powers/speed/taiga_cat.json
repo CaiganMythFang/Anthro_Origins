@@ -1,0 +1,22 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -20,
+	"max_stacks": 3,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:speed",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true,
+		"amplifier": 1
+	  },
+	"condition": {
+        "type": "origins:biome",
+        "condition": {
+           "type": "origins:category",
+           "category": "taiga"
+           }
+      },
+	"name": "§4§nTaiga Cat",
+	"description": "You are built for lighter snowy, forested areas. You move faster while in taiga biomes."
+  }

@@ -1,0 +1,73 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+			{
+                "type": "origins:add_velocity",
+                "x": 0,
+                "set": true
+            },
+			{
+                "type": "origins:add_velocity",
+                "z": 0,
+                "set": true
+            },
+			{
+                "type": "origins:add_velocity",
+                "y": 0,
+                "set": true
+            },
+			{
+                "type": "origins:add_velocity",
+                "y": 2,
+                "set": true
+            },
+            {
+                "type": "origins:add_velocity",
+                "z": 1,
+                "space": "local"
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 10,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s minecraft:jump_boost 3 255",
+                  "permission_level": 4
+                  }                
+            },
+			{
+				"type": "origins:play_sound",
+				"sound": "minecraft:entity.phantom.flap"
+			},
+			{
+				"type": "origins:exhaust",
+				"amount": 1
+			},
+            {
+                "type": "origins:delay",
+                "ticks": 5,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s minecraft:strength 2 3",
+                  "permission_level": 4
+                  }                
+            }
+        ]
+    },
+    "cooldown": 600,
+	"hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 4
+    },
+  	"condition": {
+        "type": "origins:sneaking",
+        "inverted": true
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "name": "§2§nServal Strike",
+	"description": "Press your Active key to leap in the direction you are facing! You will have increased attack power for a few moments, strike while airborne!"
+}

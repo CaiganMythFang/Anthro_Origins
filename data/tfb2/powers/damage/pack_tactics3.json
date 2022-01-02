@@ -1,0 +1,26 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Exhaustion faster while alone.",
+    "value": 0.6,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+       "type": "origins:command",
+       "command": "execute if entity @e[type=minecraft:wolf, distance=1..10]",
+       "comparison": "<",
+       "compare_to": 1
+      },
+      {
+          "type": "origins:command",
+          "command": "execute if entity @e[type=minecraft:player, distance=1..10]",
+          "comparison": "<",
+          "compare_to": 1
+      }
+    ]
+  },
+  "hidden": true
+}

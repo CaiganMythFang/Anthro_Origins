@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2.0
+    },
+    "name": "Heavyweight fall",
+	"description": "Being much larger and heavier, bigger falls are much more dangerous."
+}

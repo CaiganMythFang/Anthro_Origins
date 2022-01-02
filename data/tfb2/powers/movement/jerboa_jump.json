@@ -1,0 +1,11 @@
+{
+  "type": "origins:modify_jump",
+  "modifier": {
+    "name": "Bonus jump force while sprinting",
+    "value": 1.2,
+    "operation": "multiply_base"
+  },
+	"name": "§2§nJerboa Legs",
+	"description": "Jerboa have strong jumping legs and can jump fairly high at all times.",
+  "hidden": true
+}

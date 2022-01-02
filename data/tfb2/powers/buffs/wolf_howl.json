@@ -1,0 +1,18 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 1800,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function tfb2:wolf_howl"
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 5
+  },
+    "name": "§2§nHowl of the Wolf",
+    "description": "Use your active key to howl to your pack! Nearby players and wolves become faster and regenerate for a short bit. Cooldown: 2.5 Minutes"
+}

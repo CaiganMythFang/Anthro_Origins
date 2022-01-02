@@ -1,0 +1,20 @@
+{
+  "powers": [
+    "tfb2:movement/scurry",
+    "tfb2:movement/size_smaller_jump",
+    "tfb2:size/rat_size",
+    "tfb2:movement/small_climber",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3big",
+    "tfb2:speed/speedup_4",
+    "tfb2:food/omnivore",
+    "tfb2:size/health_hit_70",
+    "tfb2:damage/damage_minus_50"
+  ],
+  "icon": "minecraft:string",
+  "order": 2,
+  "impact": 3,
+  "name":"[TFB] Rat",
+  "description": "Rats are medium sized Rodentia, adept at surviving in any situation."
+}

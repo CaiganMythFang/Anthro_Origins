@@ -1,0 +1,17 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -5,
+	"max_stacks": 10,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:haste",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true,
+		"amplifier": 0
+	  },
+	"condition": {
+        "type": "origins:exposed_to_sky"
+      },
+      "hidden": true
+  }

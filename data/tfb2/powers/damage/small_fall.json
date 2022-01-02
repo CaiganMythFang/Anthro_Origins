@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_falling",
+    "velocity": 0.05,
+    "take_fall_damage": true,
+    "condition": {
+        "type": "origins:fall_distance",
+        "comparison": "<",
+        "compare_to": 5
+    },
+    "name": "Lightweight Fall",
+	"description": "Being so small and light, you can fall farther before taking damage. "
+}

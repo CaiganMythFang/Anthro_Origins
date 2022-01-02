@@ -1,0 +1,18 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "generic.attack_damage",
+      "operation": "multiply_total",
+      "value": -0.4,
+      "name": "40 percent less damage"
+    },
+    {
+      "attribute": "generic.attack_knockback",
+      "operation": "multiply_total",
+      "value": -0.4,
+      "name": "40 percent less knockback"
+    }
+  ],
+  "hidden": true
+}

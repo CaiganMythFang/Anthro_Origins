@@ -1,0 +1,18 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -5,
+	"max_stacks": 10,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:speed",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true,
+		"amplifier": 0
+	  },
+	"condition": {
+        "type": "origins:exposed_to_sky"
+      },
+	"name": "§2§nHare Speed",
+	"description": "Unlike rabbits, you spend most of your time under the sun and moon. As long as you are on the surface, you move and work faster."
+  }

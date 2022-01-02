@@ -1,0 +1,37 @@
+{
+    "type": "origins:modify_food",
+    "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:food_with_fish"
+            }
+          },
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:food_with_fish"
+            }
+          }
+        ]
+      }
+    ]
+  },
+    "food_modifier": {
+        "name": "increased food points",
+        "operation": "multiply_base",
+        "value": 0.3
+    },
+    "saturation_modifier": {
+        "name": "increased saturation points",
+        "operation": "multiply_base",
+        "value": 0.3
+    },
+    "name": "§9§nFish Lover",
+    "description": "You love fish a whole lot. Anything with fish is more filling and satisfying."
+}

@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "function tfb2:maned_wolf_height",
+    "permission_level": 4
+  },
+  "entity_action_respawned": {
+    "type": "origins:execute_command",
+    "command": "function tfb2:maned_wolf_height",
+    "permission_level": 4
+  },
+  "entity_action_added": {
+    "type": "origins:execute_command",
+    "command": "function tfb2:maned_wolf_height",
+    "permission_level": 4
+  },
+  "entity_action_removed": {
+    "type": "origins:execute_command",
+    "command": "scale reset @s",
+    "permission_level": 4
+  },
+  "execute_chosen_when_orb": true,
+
+  "name": "§9§nTall and Lanky",
+  "description": "As a Maned Wolf, you are tall and lanky. You have more reach and a bit more health, but are easier to hit."
+}

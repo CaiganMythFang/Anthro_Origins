@@ -1,0 +1,6 @@
+{
+	"type": "origins:night_vision",
+	"name": "§2§nRodent Vision",
+	"description": "Rodents typically have bad eyesight overall, but can see in the dark.",
+	"strength": 0.5
+}

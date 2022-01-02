@@ -1,0 +1,23 @@
+{
+  "powers": [
+    "tfb2:movement/ocelot_senses",
+    "tfb2:movement/size_smallest_jump",
+    "tfb2:size/ocelot_size",
+    "tfb2:buffs/ocelot_vision",
+    "tfb2:speed/speedup_6",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3medium",
+    "tfb2:food/hypercarnivore",
+    "tfb2:food/hypercarnivore2",
+    "tfb2:food/hypercarnivore3",
+    "tfb2:food/fish_lover",
+    "tfb2:size/health_hit_60",
+    "tfb2:damage/damage_minus_40"
+  ],
+  "icon": "minecraft:cod",
+  "order": 2,
+  "impact": 2,
+  "name":"[TFB] Ocelot",
+  "description": "The smallest Felidae, Ocelots are adept night time hunters."
+}

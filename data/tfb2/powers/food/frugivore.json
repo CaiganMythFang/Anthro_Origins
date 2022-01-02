@@ -1,0 +1,21 @@
+{
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:food_with_fruitnut"
+            }
+    },
+    "food_modifier": {
+        "name": "Increased food points",
+        "operation": "addition",
+        "value": 1.0
+    },
+    "saturation_modifier": {
+        "name": "Increased saturation points",
+        "operation": "addition",
+        "value": 1
+    },
+    "name": "§9§nFrugivore",
+    "description": "Your diet is primarily fruits, seeds, and nuts. While other plants and non-meats are acceptable, meats don't fill you, and mixed foods are mediocre."
+}

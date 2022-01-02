@@ -1,0 +1,20 @@
+{
+  "powers": [
+    "tfb2:buffs/parrot_the_music",
+    "tfb2:movement/size_smallest_jump",
+    "tfb2:size/parrot_size",
+    "tfb2:movement/glide_wing",
+    "tfb2:speed/parrot_jig",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3big",
+    "tfb2:size/health_hit_50",
+    "tfb2:damage/damage_minus_40",
+    "tfb2:speed/speedup_4",
+    "tfb2:food/herbivore"
+  ],
+  "icon": "minecraft:feather",
+  "order": 2,
+  "impact": 2,
+  "name":"[TFB] Parrot",
+  "description": "These smaller Avians love music and are known to be quite talkative."
+}

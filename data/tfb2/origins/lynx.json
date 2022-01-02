@@ -1,0 +1,23 @@
+{
+  "powers": [
+    "tfb2:movement/lynx_stalk",
+    "tfb2:movement/size_small_jump",
+    "tfb2:size/lynx_size",
+    "tfb2:speed/taiga_cat",
+    "tfb2:movement/no_freeze",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3small",
+    "tfb2:size/health_hit_30",
+    "tfb2:damage/damage_minus_20",
+    "tfb2:speed/speedup_2",
+    "tfb2:food/hypercarnivore",
+    "tfb2:food/hypercarnivore2",
+    "tfb2:food/hypercarnivore3"
+  ],
+  "icon": "minecraft:snow",
+  "order": 2,
+  "impact": 2,
+  "name":"[TFB] Lynx",
+  "description": "The lynx is a large pawed, ear-tufted Felidae."
+}

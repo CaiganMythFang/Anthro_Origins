@@ -1,0 +1,11 @@
+{
+	"type": "origins:climbing",
+	"name": "Climber",
+	"condition": {
+		"type": "origins:collided_horizontally"
+	},
+	"hold_condition": {
+		"type": "origins:collided_horizontally"
+	},
+	"description": "Nimble paws and light body enable you to climb any surface."
+}

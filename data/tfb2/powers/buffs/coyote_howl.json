@@ -1,0 +1,18 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 1200,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function tfb2:coyote_howl"
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 5
+  },
+    "name": "§2§nHowl of the Coyote",
+    "description": "Use your active key to howl! Unlike wolf howls, coyote howls are more tricky and will freeze all non-players nearby so you can slip away."
+}

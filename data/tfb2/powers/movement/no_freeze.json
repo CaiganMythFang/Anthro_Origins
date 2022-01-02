@@ -1,0 +1,9 @@
+{
+"type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "freeze"
+    },
+"name":"§2§nSnow Adapted",
+"description":"Your coat is adapted to the snow. While it slows you don't, you will not take freezing damage in snow."
+}

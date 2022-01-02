@@ -1,0 +1,28 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.luck",
+    "name": "Less luck while alone.",
+    "value": -2,
+    "operation": "addition"
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+       "type": "origins:command",
+       "command": "execute if entity @e[type=minecraft:wolf, distance=2..10]",
+       "comparison": "<",
+       "compare_to": 1
+      },
+      {
+          "type": "origins:command",
+          "command": "execute if entity @e[type=minecraft:player, distance=2..10]",
+          "comparison": "<",
+          "compare_to": 1
+      }
+    ]
+  },
+    "name": "§4§nLone Wolf Trouble",
+    "description": "Lone wolves have it rough. It is bad luck, and food does not last as long. Find a pack!"
+}

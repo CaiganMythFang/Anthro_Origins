@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": 0.02
+	},
+	"description": "Smaller animals run slower by scale, this is used to get them closer to 'human' speed but still slower.(50 to 75 percent size)",
+    "hidden": true
+}

@@ -1,0 +1,18 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 1500,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function tfb2:lion_roar"
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 5
+  },
+    "name": "§2§nLion's Roar",
+    "description": "Use your active key to roar! This will stun all non-players near you for a moment, and they will attack slower for a short bit."
+}

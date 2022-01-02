@@ -1,0 +1,24 @@
+{
+  "powers": [
+    "tfb2:buffs/hare_dash",
+    "tfb2:movement/rabbit_jump",
+    "tfb2:size/rabbit_size",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3medium",
+    "tfb2:speed/hare_speed",
+    "tfb2:speed/hare_speed2",
+    "tfb2:movement/no_freeze",
+    "tfb2:size/health_hit_40",
+    "tfb2:damage/damage_minus_30",
+    "tfb2:speed/speedup_8",
+    "tfb2:food/herbivore",
+    "tfb2:food/herbivore2",
+    "tfb2:food/herbivore3"
+  ],
+  "icon": "minecraft:rabbit_foot",
+  "order": 2,
+  "impact": 3,
+  "name":"[TFB] Hare",
+  "description": "Hares are larger Leporidae, solitary wild creatures."
+}

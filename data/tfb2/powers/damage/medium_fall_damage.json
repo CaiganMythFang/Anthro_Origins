@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.2
+    },
+    "name": "Sizeable Fall",
+	"description": "Because of your size, bigger falls are more dangerous."
+}

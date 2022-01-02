@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "tfb2:buffs/hopping_to_it",
+    "tfb2:movement/jerboa_jump",
+    "tfb2:size/jerboa_size",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3big",
+    "tfb2:buffs/rodent_vision",
+    "tfb2:size/health_hit_70",
+    "tfb2:damage/damage_minus_60",
+    "tfb2:speed/speedup_12",
+    "tfb2:food/herbivore",
+    "tfb2:food/herbivore2",
+    "tfb2:food/herbivore3"
+  ],
+  "icon": "minecraft:string",
+  "order": 2,
+  "impact": 3,
+  "name":"[TFB] Jerboa",
+  "description": "Jerboa are very small Rodentia, powerful jumpers and fast runners."
+}

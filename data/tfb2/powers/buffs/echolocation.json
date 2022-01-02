@@ -1,0 +1,9 @@
+{
+    "type": "origins:entity_glow",
+    "use_teams": false,
+    "red": 1,
+    "green": 1,
+    "blue": 1,
+    "name": "§2§nEcholocation",
+	"description": "Contrary to popular belief, you don't have bad eye sight. But your Echolocation definitely helps you see things even better!"
+}

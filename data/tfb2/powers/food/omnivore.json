@@ -1,0 +1,43 @@
+{
+    "type": "origins:modify_food",
+    "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:meat"
+            }
+          },
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:non_meat"
+            }
+          },
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:mixed_food"
+            }
+          }
+        ]
+      }
+    ]
+  },
+    "food_modifier": {
+        "name": "decreased food points",
+        "operation": "multiply_base",
+        "value": -0.1
+    },
+    "saturation_modifier": {
+        "name": "decreased saturation points",
+        "operation": "multiply_base",
+        "value": -0.1
+    },
+    "name": "§9§nOmnivore",
+    "description": "All food is decent for your diet."
+}

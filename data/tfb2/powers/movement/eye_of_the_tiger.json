@@ -1,0 +1,53 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:delay",
+                "ticks": 5,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @e[distance=..15] minecraft:glowing 10",
+                  "permission_level": 4
+                  }                
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 5,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s minecraft:dolphins_grace 10 3",
+                  "permission_level": 4
+                  }                
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 5,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s minecraft:invisibility 10 3",
+                  "permission_level": 4
+                  }                
+            },
+			{
+				"type": "origins:play_sound",
+				"sound": "entity.illusioner.mirror_move"
+			},
+			{
+				"type": "origins:exhaust",
+				"amount": 1
+			}
+        ]
+    },
+    "cooldown": 2000,
+	"hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 4
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "name": "§2§nEye of the Tiger",
+	"description": "Tigers can be scarily stealthy. Pressing your Active Key will turn you all but invisible, and highlight all creatures around you. You will also be able to swim quite fast for a few moments."
+}

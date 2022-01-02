@@ -1,0 +1,10 @@
+{
+    "name": "Cold Adept",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "inverted": false,
+        "type": "origins:name",
+        "name": "freeze"
+    },
+    "description": "You are at home in the snow and cold, and your thick fur protects you from freezing."
+}

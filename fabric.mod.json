@@ -1,0 +1,16 @@
+{
+    "schemaVersion": 1,
+    "environment": "*",
+    "depends": {
+        "fabric-api-base": "*",
+        "fabric": "*",
+        "minecraft": "1.18.x"
+    },
+    "name": "[TFB] Anthro Origins",
+    "id": "tfb2",
+    "version": "1.0.0",
+    "description": "A wide variety of Anthro/Furry origins. \nAn Origins addon by Caigan. ",
+    "license": "Unknown",
+    "pack_format": 8,
+    "icon": "pack.png"
+}

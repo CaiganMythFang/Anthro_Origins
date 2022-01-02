@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "tfb2:buffs/wolf_howl",
+    "tfb2:damage/pack_tactics1",
+    "tfb2:food/hypercarnivore",
+    "tfb2:food/hypercarnivore2",
+    "tfb2:food/hypercarnivore3",
+    "tfb2:damage/pack_tactics2",
+    "tfb2:damage/pack_tactics3"
+  ],
+  "icon": "minecraft:mutton",
+  "order": 1,
+  "impact": 1,
+  "name":"[TFB] Wolf",
+  "description": "One of the largest canidae, the wolf is a social animal that lives in packs."
+}

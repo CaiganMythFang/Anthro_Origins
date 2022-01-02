@@ -1,0 +1,13 @@
+{
+    "type": "origins:entity_glow",
+    "entity_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:item"
+    },
+    "use_teams": false,
+    "red": 1,
+    "green": 1,
+    "blue": 1,
+    "name": "§2§nBandit Senses",
+	"description": "You can sense any item that has fallen onto the floor."
+}

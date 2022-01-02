@@ -1,0 +1,41 @@
+{
+  "type": "origins:stacking_status_effect",
+	"min_stacks": -20,
+	"max_stacks": 10,
+	"duration_per_stack": 20,
+	"effects": [
+	  {
+		"effect": "minecraft:mining_fatigue",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true,
+		"amplifier": 2
+	  },
+	  {
+		"effect": "minecraft:speed",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true,
+		"amplifier": 1
+	  }
+	],
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+       "type": "origins:command",
+       "command": "execute if entity @e[type=minecraft:villager, distance=2..10]",
+       "comparison": ">=",
+       "compare_to": 1
+      },
+      {
+          "type": "origins:command",
+          "command": "execute if entity @e[type=minecraft:player, distance=2..10]",
+          "comparison": ">=",
+          "compare_to": 1
+      }
+    ]
+  },
+    "name": "§9§nNervous Solitude",
+    "description": "As a fairly solitary creature, you prefer to avoid human-like encounters. If you stay close to other players, villagers, or certain other humanoids, you will work slower but gain a speed boost."
+}

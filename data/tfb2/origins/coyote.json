@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "tfb2:buffs/coyote_howl",
+    "tfb2:size/coyote_size",
+    "tfb2:buffs/coyote_vision",
+    "tfb2:speed/plains_runner",
+    "tfb2:food/omnivore",
+    "tfb2:size/health_hit_20",
+    "tfb2:damage/damage_minus_10"
+  ],
+  "icon": "minecraft:rabbit",
+  "order": 2,
+  "impact": 1,
+  "name":"[TFB] Coyote",
+  "description": "Coyotes are fabled tricksters; smart, adaptable, and strangely humored as well."
+}

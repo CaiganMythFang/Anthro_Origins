@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "tfb2:movement/snep_jump",
+    "tfb2:movement/size_small_jump",
+    "tfb2:size/snep_size",
+    "tfb2:speed/snow_runner",
+    "tfb2:movement/no_freeze",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:food/hypercarnivore",
+    "tfb2:food/hypercarnivore2",
+    "tfb2:food/hypercarnivore3",
+    "tfb2:speed/speedup_1",
+    "tfb2:size/health_hit_20",
+    "tfb2:damage/damage_minus_10"
+  ],
+  "icon": "minecraft:snow_block",
+  "order": 2,
+  "impact": 1,
+  "name":"[TFB] Snep",
+  "description": "Snow Leopards, or Sneps, are smaller felidae that are quite adept at traversing snow and mountains."
+}

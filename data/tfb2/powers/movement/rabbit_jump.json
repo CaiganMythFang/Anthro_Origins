@@ -1,0 +1,11 @@
+{
+  "type": "origins:modify_jump",
+  "modifier": {
+    "name": "Bonus jump force while sprinting",
+    "value": 1.1,
+    "operation": "multiply_base"
+  },
+	"name": "§2§nRabbit Legs",
+	"description": "Rabbits are notorious hoppers.",
+  "hidden": true
+}

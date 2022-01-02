@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.luck",
+		"operation": "addition",
+		"value": -1
+	},
+    "name": "§2§nDistracted Looter",
+	"description": "You are a little unlucky in finding the prize, since you are quite easily distracted."
+}

@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "tfb2:movement/fox_jump",
+    "tfb2:movement/size_small_jump",
+    "tfb2:size/fox_size",
+    "tfb2:food/omnivore",
+    "tfb2:food/fox_food",
+    "tfb2:size/health_hit_30",
+    "tfb2:damage/sly_traveler",
+    "tfb2:speed/speedup_2",
+    "tfb2:damage/damage_minus_20"
+  ],
+  "icon": "minecraft:chicken",
+  "order": 2,
+  "impact": 2,
+  "name":"[TFB] Fox",
+  "description": "The smallest of the Canidae, the fox is a cunning yet playful creature."
+}

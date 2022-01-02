@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "tfb2:buffs/lab_mouse",
+    "tfb2:movement/size_smaller_jump",
+    "tfb2:buffs/rodent_vision",
+    "tfb2:movement/small_climber",
+    "tfb2:size/mouse_size",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3big",
+    "tfb2:food/omnivore",
+    "tfb2:size/health_hit_80",
+    "tfb2:damage/damage_minus_60",
+    "tfb2:speed/speedup_14"
+  ],
+  "icon": "minecraft:lily_of_the_valley",
+  "order": 2,
+  "impact": 3,
+  "name":"[TFB] Mouse",
+  "description": "Mice are the smallest Rodentia, fragile but with many secrets."
+}

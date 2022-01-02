@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "tfb2:movement/jackal_speed",
+    "tfb2:size/jackal_size",
+    "tfb2:food/omnivore",
+    "tfb2:size/health_hit_20",
+    "tfb2:damage/damage_minus_10",
+    "tfb2:damage/hug_cactus",
+    "tfb2:speed/cold_feet"
+  ],
+  "icon": "minecraft:sand",
+  "order": 2,
+  "impact": 1,
+  "name":"[TFB] Jackal",
+  "description": "Jackals are small Canidae, clever and adept. Usually live alone or in small family packs, they can be found in most climates."
+}

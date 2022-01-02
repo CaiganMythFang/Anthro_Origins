@@ -1,0 +1,20 @@
+{
+  "powers": [
+    "tfb2:buffs/lion_roar",
+    "tfb2:size/lion_size",
+    "tfb2:buffs/health_bonus_30",
+    "tfb2:damage/damage_bonus_30",
+    "tfb2:speed/slowdown_1",
+    "tfb2:speed/savanna_cat",
+    "tfb2:food/big_carnivore1",
+    "tfb2:food/big_carnivore2",
+    "tfb2:food/big_carnivore3",
+    "tfb2:damage/large_fall_damage",
+    "tfb2:food/pride_hunger"
+  ],
+  "icon": "minecraft:dandelion",
+  "order": 2,
+  "impact": 2,
+  "name":"[TFB] Lion",
+  "description": "A much larger Felidae, the lion is a prideful and strong feline."
+}

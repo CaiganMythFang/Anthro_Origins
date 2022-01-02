@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "tfb2:movement/eye_of_the_tiger",
+    "tfb2:size/tiger_size",
+    "tfb2:buffs/health_bonus_50",
+    "tfb2:damage/damage_bonus_50",
+    "tfb2:speed/slowdown_1",
+    "tfb2:food/big_carnivore1",
+    "tfb2:food/big_carnivore2",
+    "tfb2:food/big_carnivore3",
+    "tfb2:damage/large_fall_damage"
+  ],
+  "icon": "minecraft:light_gray_glazed_terracotta",
+  "order": 2,
+  "impact": 1,
+  "name":"[TFB] Tiger",
+  "description": "The largest of the Felidae, the tiger's strength matches it's size."
+}

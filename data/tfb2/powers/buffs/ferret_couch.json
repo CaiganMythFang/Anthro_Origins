@@ -1,0 +1,11 @@
+{
+  "type": "origins:inventory",
+  "name": "container.shulker_inventory_power",
+  "drop_on_death": false,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "§2§nUnder The Couch",
+  "description": "Press your Active key to open up your hidden couch stash! This strange inventory will not drop on death, but if you become a not-ferret, the couch becomes empty once again."
+}

@@ -1,0 +1,12 @@
+{
+
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": "5"
+  },
+
+  "name": "§2§nVery Large Stature",
+  "description": "Due to your larger size, you have much more health and do much more base damage."
+}

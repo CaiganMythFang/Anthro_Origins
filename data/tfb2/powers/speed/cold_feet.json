@@ -1,0 +1,23 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -20,
+	"max_stacks": 6,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:slowness",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true,
+		"amplifier": 1
+	  },
+	"condition": {
+	   "type": "origins:biome",
+	   "condition": {
+         "type": "origins:temperature",
+         "comparison": "<=",
+         "compare_to": 0.1
+        }
+      },
+	"name": "§4§nCold Paws",
+	"description": "You function well in most climates... except snow. It's cold and gets everywhere."
+  }

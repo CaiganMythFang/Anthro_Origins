@@ -1,0 +1,27 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Exhaustion faster while alone.",
+    "value": 0.8,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+       "type": "origins:command",
+       "command": "execute if entity @e[type=minecraft:cat, distance=1..15]",
+       "comparison": "<",
+       "compare_to": 1
+      },
+      {
+          "type": "origins:command",
+          "command": "execute if entity @e[type=minecraft:player, distance=1..15]",
+          "comparison": "<",
+          "compare_to": 1
+      }
+    ]
+  },
+    "name": "§2§nPrideful",
+    "description": "Without your Pride close by, you exhaust faster. Adopt a Pride! (Other players and tamed Cats count)"
+}

@@ -1,0 +1,20 @@
+{
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:non_meat"
+        }
+    },
+    "food_modifier": {
+        "name": "decreased food points",
+        "operation": "multiply_base",
+        "value": -0.95
+    },
+    "saturation_modifier": {
+        "name": "decreased saturation points",
+        "operation": "multiply_base",
+        "value": 0.95
+    },
+  "hidden": true
+}
