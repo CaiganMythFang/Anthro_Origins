@@ -1,6 +1,7 @@
 {
   "powers": [
     "tfb2:movement/jackal_speed",
+    "tfb2:size/step_height_1_5",
     "tfb2:size/jackal_size",
     "tfb2:food/omnivore",
     "tfb2:size/health_hit_20",

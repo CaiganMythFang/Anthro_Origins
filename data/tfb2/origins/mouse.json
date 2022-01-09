@@ -2,6 +2,7 @@
   "powers": [
     "tfb2:buffs/lab_mouse",
     "tfb2:movement/size_smaller_jump",
+    "tfb2:size/step_height_4_0",
     "tfb2:buffs/rodent_vision",
     "tfb2:movement/small_climber",
     "tfb2:size/mouse_size",

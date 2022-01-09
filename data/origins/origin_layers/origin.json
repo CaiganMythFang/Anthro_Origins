@@ -21,7 +21,10 @@
     "tfb2:hare",
     "tfb2:ferret",
     "tfb2:megabat",
-    "tfb2:parrot"
+    "tfb2:parrot",
+    "tfb2:elephant",
+    "tfb2:red_panda",
+    "tfb2:goat"
   ],
   "allow_random": true,
   "exclude_random": [

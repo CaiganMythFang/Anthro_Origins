@@ -2,6 +2,7 @@
   "powers": [
     "tfb2:movement/ocelot_senses",
     "tfb2:movement/size_smallest_jump",
+    "tfb2:size/step_height_2_5",
     "tfb2:size/ocelot_size",
     "tfb2:buffs/ocelot_vision",
     "tfb2:speed/speedup_6",

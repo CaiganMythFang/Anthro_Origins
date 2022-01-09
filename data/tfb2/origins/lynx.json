@@ -2,6 +2,7 @@
   "powers": [
     "tfb2:movement/lynx_stalk",
     "tfb2:movement/size_small_jump",
+    "tfb2:size/step_height_1_7",
     "tfb2:size/lynx_size",
     "tfb2:speed/taiga_cat",
     "tfb2:movement/no_freeze",

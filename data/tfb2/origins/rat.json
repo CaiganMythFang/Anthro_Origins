@@ -2,6 +2,7 @@
   "powers": [
     "tfb2:movement/scurry",
     "tfb2:movement/size_smaller_jump",
+    "tfb2:size/step_height_2_5",
     "tfb2:size/rat_size",
     "tfb2:movement/small_climber",
     "tfb2:damage/small_fall",

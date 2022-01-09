@@ -2,6 +2,7 @@
   "powers": [
     "tfb2:buffs/hopping_to_it",
     "tfb2:movement/jerboa_jump",
+    "tfb2:size/step_height_3_0",
     "tfb2:size/jerboa_size",
     "tfb2:damage/small_fall",
     "tfb2:damage/small_fall2",

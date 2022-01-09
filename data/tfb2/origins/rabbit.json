@@ -3,6 +3,7 @@
     "tfb2:buffs/rabbit_vanish",
     "tfb2:movement/rabbit_jump",
     "tfb2:size/rabbit_size",
+    "tfb2:size/step_height_2_5",
     "tfb2:damage/small_fall",
     "tfb2:damage/small_fall2",
     "tfb2:damage/small_fall3medium",

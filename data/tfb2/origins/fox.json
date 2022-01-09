@@ -2,6 +2,7 @@
   "powers": [
     "tfb2:movement/fox_jump",
     "tfb2:movement/size_small_jump",
+    "tfb2:size/step_height_1_5",
     "tfb2:size/fox_size",
     "tfb2:food/omnivore",
     "tfb2:food/fox_food",

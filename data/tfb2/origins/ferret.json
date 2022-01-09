@@ -4,6 +4,7 @@
     "tfb2:buffs/bandit_senses",
     "tfb2:size/ferret_size",
     "tfb2:movement/size_small_jump",
+    "tfb2:size/step_height_1_5",
     "tfb2:damage/small_fall",
     "tfb2:damage/small_fall2",
     "tfb2:damage/small_fall3medium",

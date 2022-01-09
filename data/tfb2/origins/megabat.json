@@ -2,6 +2,7 @@
   "powers": [
     "tfb2:movement/big_bat_flight",
     "tfb2:movement/size_smaller_jump",
+    "tfb2:size/step_height_2_0",
     "tfb2:buffs/echolocation",
     "tfb2:buffs/bat_vision",
     "tfb2:size/bat_size",
