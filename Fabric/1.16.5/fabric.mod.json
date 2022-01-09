@@ -2,9 +2,9 @@
     "schemaVersion": 1,
     "environment": "*",
     "depends": {
-        "fabric-api-base": "*",
         "fabric": "*",
-        "minecraft": "1.18.x"
+        "origins": ">=0.4.1",
+    "minecraft": ">=1.16.2"
     },
     "name": "[TFB] Anthro Origins",
     "id": "tfb2",

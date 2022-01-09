@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="Unknown"
+
+[[mods]]
+modId="tfb2"
+displayName="Anthro Origins"
+version="1.1.0"
+description='''
+A wide variety of Anthro/Furry origins. An Origins addon by Caigan. 
+'''
