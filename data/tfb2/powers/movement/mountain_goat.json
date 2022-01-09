@@ -1,0 +1,22 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -20,
+	"max_stacks": 3,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:jump_boost",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true,
+		"amplifier": 1
+	  },
+	"condition": {
+        "type": "origins:biome",
+        "condition": {
+           "type": "origins:category",
+           "category": "mountain"
+           }
+      },
+	"name": "§4§nMountain Goat",
+	"description": "You are built for traversing mountains. You can jump higher in mountain type biomes."
+  }

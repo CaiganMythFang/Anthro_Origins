@@ -1,0 +1,24 @@
+{
+  "powers": [
+    "tfb2:buffs/escape_artist",
+    "tfb2:movement/size_small_jump",
+    "tfb2:size/step_height_1_5",
+    "tfb2:size/goat_size",
+    "tfb2:movement/mountain_goat",
+    "tfb2:speed/speedup_4",
+    "tfb2:speed/swimup_2",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3small",
+    "tfb2:food/herbivore",
+    "tfb2:food/herbivore2",
+    "tfb2:food/herbivore3",
+    "tfb2:size/health_hit_30",
+    "tfb2:damage/damage_minus_20"
+  ],
+  "icon": "minecraft:powder_snow_bucket",
+  "order": 2,
+  "impact": 1,
+  "name":"[TFB] Goat",
+  "description": "A smaller Bovidae, Goats are notorious climbers and mountaineers."
+}
