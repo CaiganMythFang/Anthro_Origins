@@ -6,8 +6,8 @@
     },
     "modifier": {
         "operation": "multiply_base",
-        "value": 2.0
+        "value": 2.5
     },
-    "name": "Heavyweight fall",
+    "name": "Heavyweight Fall",
 	"description": "Being much larger and heavier, bigger falls are much more dangerous."
 }

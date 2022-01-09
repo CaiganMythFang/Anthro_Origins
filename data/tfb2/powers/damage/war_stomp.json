@@ -1,0 +1,39 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 2400,
+  "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:block.gilded_blackstone.break ambient @s ~ ~ ~",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @e[type=!minecraft:husk,type=!minecraft:drowned,type=!minecraft:phantom,type=!minecraft:stray,type=!minecraft:zombie_villager,type=!minecraft:zombie,type=!minecraft:skeleton,distance=1..5] minecraft:instant_damage 1 1",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "function tfb2:damage_undead",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=1..5] minecraft:levitation 3 1",
+                "permission_level": 4
+            }
+        ]
+    },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 5
+  },
+    "name": "§2§nWar Stomp",
+    "description": "You stomp the ground very hard! Creatures around you take damage and will fly up into the air."
+}

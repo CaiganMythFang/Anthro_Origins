@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.5
+    },
+	"name": "§2§nNever Forgets",
+    "description": "Your memory is fantastic and you learn quickly. Your experience gain is increased."
+}

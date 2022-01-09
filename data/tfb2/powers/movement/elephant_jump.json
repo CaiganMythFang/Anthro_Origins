@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_jump",
+  "modifier": {
+    "name": "Bonus jump force while sprinting",
+    "value": -3,
+    "operation": "multiply_base"
+  },
+	"name": "§4§nElephants Don't Jump",
+	"description": "Your size prevents you from jumping, but you can step up two high blocks instead of one."
+}

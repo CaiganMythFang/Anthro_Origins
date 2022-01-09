@@ -1,0 +1,20 @@
+{
+  "powers": [
+    "tfb2:damage/war_stomp",
+    "tfb2:size/elephant_size",
+    "tfb2:buffs/health_bonus_50",
+    "tfb2:damage/damage_bonus_50",
+    "tfb2:speed/slowdown_1",
+    "tfb2:buffs/herd_family",
+    "tfb2:food/big_herbivore1",
+    "tfb2:food/big_herbivore2",
+    "tfb2:food/big_herbivore3",
+    "tfb2:damage/large_fall_damage",
+    "tfb2:movement/elephant_jump"
+  ],
+  "icon": "minecraft:gray_wool",
+  "order": 2,
+  "impact": 1,
+  "name":"[TFB] Elephant",
+  "description": "The only member of Elephantidae and the biggest of the anthros."
+}

@@ -1,0 +1,27 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Less Exhaustion Near Players or Cows",
+    "value": -0.5,
+    "operation": "multiply_base"
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+       "type": "origins:command",
+       "command": "execute if entity @e[type=minecraft:cow, distance=2..10]",
+       "comparison": "==",
+       "compare_to": 1
+      },
+      {
+          "type": "origins:command",
+          "command": "execute if entity @e[type=minecraft:player, distance=2..10]",
+          "comparison": "==",
+          "compare_to": 1
+      }
+    ]
+  },
+    "name": "§2§nHerd Family",
+    "description": "Your herd is your family, and you work together. If you are near other players or cows (as elephants are quite rare), you exhaust much slower."
+}
