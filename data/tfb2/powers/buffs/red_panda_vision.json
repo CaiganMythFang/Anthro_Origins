@@ -1,0 +1,6 @@
+{
+	"type": "origins:night_vision",
+	"name": "§2§nRed Panda Vision",
+	"description": "Red Pandas are nocturnal creatures, and can see much better in the dark.",
+	"strength": 0.75
+}

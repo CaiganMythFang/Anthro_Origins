@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "tfb2:buffs/threatening_aura",
+    "tfb2:movement/size_smallestest_jump",
+    "tfb2:size/step_height_3_0",
+    "tfb2:size/red_panda_size",
+    "tfb2:buffs/red_panda_vision",
+    "tfb2:speed/speedup_12",
+    "tfb2:speed/swimup_3",
+    "tfb2:damage/small_fall",
+    "tfb2:damage/small_fall2",
+    "tfb2:damage/small_fall3medium",
+    "tfb2:food/omnivore",
+    "tfb2:size/health_hit_60",
+    "tfb2:damage/damage_minus_40"
+  ],
+  "icon": "minecraft:bamboo",
+  "order": 2,
+  "impact": 2,
+  "name":"[TFB] Red Panda",
+  "description": "The only member of Ailuridae, Red Pandas are also known as lesser pandas."
+}
