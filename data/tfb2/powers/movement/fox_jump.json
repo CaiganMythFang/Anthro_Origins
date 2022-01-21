@@ -32,7 +32,7 @@
                 "ticks": 12,
                 "action": {
                     "type": "origins:add_velocity",
-                    "y": -3,
+                    "y": -4,
                     "set": true
                 }                
             },
