@@ -1,0 +1,62 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 100,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "clear @s minecraft:coal 1"
+      },
+      {
+        "type": "origins:feed",
+        "food": 2,
+        "saturation": 2
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.chain.place"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "inverted": false,
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "inverted": false,
+          "ingredient": {
+            "item": "minecraft:coal"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "inverted": false,
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "inverted": false,
+          "ingredient": {
+            "item": "minecraft:coal"
+          }
+        }
+      }
+    ]
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 16
+  },
+  "name": "§9§nNanobot Digestion",
+  "description": "You can 'feed' on a variety of materials. By holding one of these items and hitting your active key, your nanobots will consume it. Each item has a different cooldown and does something different, from feeding you, to buffing you, to repairing you. You can consume : Coal, Copper / Iron / Gold / Netherite Ingots, Diamonds, Emeralds, Lapis, and Redstone."
+}

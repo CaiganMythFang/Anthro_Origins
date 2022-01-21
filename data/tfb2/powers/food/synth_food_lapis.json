@@ -1,0 +1,76 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 3600,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "clear @s minecraft:lapis_lazuli 1"
+      },
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "effect give @s minecraft:conduit_power 20 1"
+      },
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "effect give @s minecraft:dolphins_grace 20 1"
+      },
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "effect give @s minecraft:water_breathing 20 1"
+      },
+      {
+        "type": "origins:feed",
+        "food": 1,
+        "saturation": 1
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.chain.place"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "inverted": false,
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "inverted": false,
+          "ingredient": {
+            "item": "minecraft:lapis_lazuli"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "inverted": false,
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "inverted": false,
+          "ingredient": {
+            "item": "minecraft:lapis_lazuli"
+          }
+        }
+      }
+    ]
+  },
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 2
+  },
+  "hidden": true
+}
