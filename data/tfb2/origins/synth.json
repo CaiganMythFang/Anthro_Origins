@@ -1,0 +1,26 @@
+{
+  "powers": [
+    "tfb2:food/synth_food_base",
+    "tfb2:food/synth_food_copper",
+    "tfb2:food/synth_food_diamond",
+    "tfb2:food/synth_food_emerald",
+    "tfb2:food/synth_food_gold",
+    "tfb2:food/synth_food_iron",
+    "tfb2:food/synth_food_lapis",
+    "tfb2:food/synth_food_netherite",
+    "tfb2:food/synth_food_redstone",
+    "tfb2:food/synthetic",
+    "tfb2:food/synthetic2",
+    "tfb2:food/synthetic3",
+    "tfb2:damage/weak_to_magic",
+    "tfb2:damage/weak_to_magic2",
+    "tfb2:damage/weak_to_magic3",
+    "tfb2:damage/weak_to_magic4",
+    "tfb2:food/no_potions"
+  ],
+  "icon": "minecraft:iron_ingot",
+  "order": 2,
+  "impact": 3,
+  "name":"[TFB] Synth",
+  "description": "Synths are a synthetic species created by Vader-San."
+}

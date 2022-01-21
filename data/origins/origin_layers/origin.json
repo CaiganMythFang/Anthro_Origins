@@ -24,7 +24,8 @@
     "tfb2:parrot",
     "tfb2:elephant",
     "tfb2:red_panda",
-    "tfb2:goat"
+    "tfb2:goat",
+    "tfb2:synth"
   ],
   "allow_random": true,
   "exclude_random": [
