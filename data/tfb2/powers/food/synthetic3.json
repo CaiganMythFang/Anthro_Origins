@@ -8,12 +8,12 @@
     },
     "food_modifier": {
         "name": "Decreased food points",
-        "operation": "addition",
+        "operation": "multiply_base",
         "value": -0.9
     },
     "saturation_modifier": {
         "name": "Decreased saturation points",
-        "operation": "addition",
+        "operation": "multiply_base",
         "value": -0.9
     },
   "hidden": true
