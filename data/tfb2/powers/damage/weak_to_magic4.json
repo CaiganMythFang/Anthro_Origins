@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "magic.player"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2.5
+    },
+	"hidden": true
+}

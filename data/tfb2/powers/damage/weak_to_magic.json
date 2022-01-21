@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "indirectMagic"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2.5
+    },
+    "name": "§4§nMagic Short Circuit",
+	"description": "This world's magic messes with your synthetic form. You take increased damage from magical sources."
+}
