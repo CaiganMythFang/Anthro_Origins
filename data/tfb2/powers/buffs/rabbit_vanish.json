@@ -33,8 +33,8 @@
     },
     "cooldown": 800,
 	"hud_render": {
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-        "bar_index": 4
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 15
     },
     "key": {
         "key": "key.origins.primary_active"

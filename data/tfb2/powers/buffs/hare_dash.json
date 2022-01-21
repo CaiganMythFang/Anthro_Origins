@@ -43,7 +43,7 @@
     "cooldown": 1500,
 	"hud_render": {
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-        "bar_index": 4
+        "bar_index": 2
     },
     "key": {
         "key": "key.origins.primary_active"

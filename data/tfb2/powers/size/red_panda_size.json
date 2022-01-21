@@ -2,17 +2,17 @@
   "type": "origins:action_on_callback",
   "entity_action_chosen": {
     "type": "origins:execute_command",
-    "command": "scale set 0.35 @s",
+    "command": "scale set 0.65 @s",
     "permission_level": 4
   },
   "entity_action_respawned": {
     "type": "origins:execute_command",
-    "command": "scale set 0.35 @s",
+    "command": "scale set 0.65 @s",
     "permission_level": 4
   },
   "entity_action_added": {
     "type": "origins:execute_command",
-    "command": "scale set 0.35 @s",
+    "command": "scale set 0.65 @s",
     "permission_level": 4
   },
   "entity_action_removed": {
