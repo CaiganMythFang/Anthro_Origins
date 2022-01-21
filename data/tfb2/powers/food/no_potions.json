@@ -1,0 +1,22 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+    "type": "origins:or",
+       "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:potion"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:potion"
+        }
+      }
+    ]
+    },
+    "name": "§4§nPotion Paralysis",
+    "description": "You are unable to drink most potions. Their magical nature would either do nothing, or damage your synthetic form."
+}
